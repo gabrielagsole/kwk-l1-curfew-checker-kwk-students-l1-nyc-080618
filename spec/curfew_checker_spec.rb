@@ -10,7 +10,7 @@ describe "#simple_curfew_checker" do
   end
 
   it "should not tell you you're in trouble when time is before 11" do 
-    expect(simple_curfew_checker(10)).to eq(nil)
+    expect(simple_curfew_checker(10)).to eq(nil) 
   end
 end
 
